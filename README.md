@@ -94,6 +94,71 @@ Below is an example of `model_config.json`:
 - Add real-time processing capabilities for clinical deployment.
 - Enhance diagnostic reports with advanced natural language processing (NLP).
 
+## Test Photos and Dataset Citations
+
+The following datasets were used for testing and evaluating the system's capabilities:
+
+### Test Photos
+
+Sample test photos from the datasets have been included in the repository for demonstration purposes. These images are located in the `test_photos/` directory.
+
+### Dataset Citations
+
+1. **Segmentation Dataset**
+   - Title: **Segmentation Dataset**
+   - Author: **University of Dhaka**
+   - Published by: **Roboflow Universe**
+   - Link: [Segmentation Dataset](https://universe.roboflow.com/university-of-dhaka-ghmd0/segmentation-95qui)
+   - Citation:
+     ```bibtex
+     @misc{
+         segmentation-95qui_dataset,
+         title = { segmentation Dataset },
+         type = { Open Source Dataset },
+         author = { University of Dhaka },
+         howpublished = { \url{ https://universe.roboflow.com/university-of-dhaka-ghmd0/segmentation-95qui } },
+         url = { https://universe.roboflow.com/university-of-dhaka-ghmd0/segmentation-95qui },
+         journal = { Roboflow Universe },
+         publisher = { Roboflow },
+         year = { 2022 },
+         month = { oct },
+         note = { visited on 2024-11-21 },
+     }
+     ```
+
+2. **Disc Herniation Dataset**
+   - Title: **FITIKDENEME Dataset**
+   - Author: **agoruntusleme**
+   - Published by: **Roboflow Universe**
+   - Link: [FITIKDENEME Dataset](https://universe.roboflow.com/agoruntusleme/fitikdeneme)
+   - Citation:
+     ```bibtex
+     @misc{
+         fitikdeneme_dataset,
+         title = { FITIKDENEME Dataset },
+         type = { Open Source Dataset },
+         author = { agoruntusleme },
+         howpublished = { \url{ https://universe.roboflow.com/agoruntusleme/fitikdeneme } },
+         url = { https://universe.roboflow.com/agoruntusleme/fitikdeneme },
+         journal = { Roboflow Universe },
+         publisher = { Roboflow },
+         year = { 2023 },
+         month = { aug },
+         note = { visited on 2024-11-21 },
+     }
+     ```
+
+### Usage of Test Photos
+
+To test the system with the provided photos:
+1. Place the images from the `test_photos/` directory in the appropriate input path.
+2. Run the script using the `--input` argument to specify the path to a test image.
+   ```bash
+   python main.py --input test_photos/example_image.jpg --output results/example_output.jpg
+   ```
+3.The results will be saved in the specified output path.
+
+
 ## Acknowledgments
 
 Special thanks to the Faculty of Engineering, The British University in Egypt, and the medical professionals who contributed their expertise to this project.
