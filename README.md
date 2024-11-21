@@ -1,5 +1,8 @@
 # Detection of Spine Deformities Using Deep Learning Models
 
+<img src="images/cover_photo.png" alt="Detection of Spine Deformities" width="800"/>
+
+
 ## Overview
 
 This project leverages deep learning and image processing techniques to detect and diagnose spine deformities with precision. It emulates the diagnostic approach of a real doctor and supports the integration of APIs or custom models for both localization and diagnosis tasks. The system is highly flexible, allowing adaptation for diagnosing various types of spine injuries.
