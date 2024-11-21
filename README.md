@@ -1,1 +1,107 @@
-# Detection-of-spine-deformities-using-deep-learning-models-
+# Detection of Spine Deformities Using Deep Learning Models
+
+## Overview
+
+This project leverages deep learning and image processing techniques to detect and diagnose spine deformities with precision. It emulates the diagnostic approach of a real doctor and supports the integration of APIs or custom models for both localization and diagnosis tasks. The system is highly flexible, allowing adaptation for diagnosing various types of spine injuries.
+
+## Features
+
+- Implements diagnostic methodologies similar to those used by medical professionals.
+- Supports the addition of APIs or custom models for localization and diagnosis.
+- Allows integration of models tailored to specific spine injuries and deformities.
+- Processes images in `.jpg` and `.png` formats for both input and output.
+- Generates detailed, natural-language diagnostic reports.
+
+## Configuration File
+
+The project includes a **sample configuration file**: `model_config.json`. This file outlines the settings for integrating models or APIs for localization and diagnosis tasks.
+
+- **Important**: Update the file with your specific model IDs, API credentials, and other parameters as needed.
+
+## System Requirements
+
+- **Operating System**: Linux, macOS, or Windows
+- **Python Version**: 3.8 or higher
+- **Dependencies**:
+  - TensorFlow/PyTorch
+  - OpenCV
+  - Matplotlib
+  - Roboflow
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/detection-of-spine-deformities.git
+   cd detection-of-spine-deformities
+   ```
+2. Install the required dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+3. Configure the models and APIs:
+
+ Modify model_config.json with your desired model settings, API credentials, and parameters.
+
+## Usage
+1. Specify an input image (.jpg or .png) and an output image path with the same format.
+
+2. Run the main diagnostic script:
+```bash
+python main.py --input input_images/spine_image.jpg --output output_results/processed_spine.jpg
+```
+3. The processed results and diagnostic reports will be saved to the specified output path.
+
+## Multi-Model Support
+
+The system supports the integration of multiple APIs or custom models to handle different tasks:
+
+- **Localization Models**: Used for detecting and localizing vertebrae.
+- **Diagnosis Models**: Tailored to identify specific spine deformities and injuries.
+
+### Customization
+
+The `model_config.json` file allows users to:
+
+- Add or replace APIs and models for specific tasks.
+- Customize localization and diagnosis configurations for specific types of injuries or deformities.
+
+### Configuration Example
+
+Below is an example of `model_config.json`:
+
+```json
+{
+  "models": {
+    "localization": {
+      "name": "CustomLocalizationModel",
+      "model_id": "lumbar-st35n/2",
+      "project_name": "lumbar-st35n"
+    },
+    "diagnosis": {
+      "name": "InjuryDiagnosisModel",
+      "task": "classification",
+      "pretrained_weights": "diagnosis_model.pth"
+    }
+  }
+}
+
+```
+
+## Future Enhancements
+
+- Extend support to analyze cervical and thoracic spine deformities.
+- Add real-time processing capabilities for clinical deployment.
+- Enhance diagnostic reports with advanced natural language processing (NLP).
+
+## Acknowledgments
+
+Special thanks to the Faculty of Engineering, The British University in Egypt, and the medical professionals who contributed their expertise to this project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
