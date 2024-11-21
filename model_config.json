@@ -1,0 +1,14 @@
+{
+  "models": {
+    "localization": {
+      "name": "CustomLocalizationModel",
+      "model_id": "lumbar-st35n/2",
+      "project_name": "lumbar-st35n"
+    },
+    "diagnosis": {
+      "name": "InjuryDiagnosisModel",
+      "task": "classification",
+      "pretrained_weights": "diagnosis_model.pth"
+    }
+  }
+}
