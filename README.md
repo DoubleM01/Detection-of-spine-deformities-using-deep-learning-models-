@@ -201,8 +201,15 @@ By citing the above datasets, this project adheres to open-source data usage gui
 
 ## Acknowledgments
 
-Special thanks to the Faculty of Engineering, The British University in Egypt, and the medical professionals who contributed their expertise to this project.
+Special thanks to the following individuals for their contributions and guidance:
 
+- **Dr. Hany Ayad** (Supervisor)
+- **Dr. Gamal Ebrahim** (Supervisor)
+- **Dr. Mohamed Zalouk** (Medical Supervisor)
+
+Their expertise and support were instrumental in the successful completion of this project.
+
+Special recognition is also extended to the Faculty of Engineering, The British University in Egypt, and the medical professionals who contributed their valuable insights.
 ## License
 
 This project is licensed under the [License](LICENSE).
