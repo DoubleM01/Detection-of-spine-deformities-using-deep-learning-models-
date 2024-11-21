@@ -158,6 +158,43 @@ To test the system with the provided photos:
    ```
 3.The results will be saved in the specified output path.
 
+## Test Photos and Results
+
+The following are sample test photos and their corresponding processed results:
+
+### Input Photo
+**Test Input Photo**:
+
+
+![Input Spine Image](images/test.png)
+
+### Output Photos
+**Diagnosis Output**:
+
+
+![Predicted Spine Diagnosis](images/predicted.jpg)
+
+**Localization Output (Vertebrae and Disc Analysis)**:
+
+
+![Vertebrae and Disc Localization](images/vertebrae_disc.jpg)
+
+---
+
+## GUI Version (Screenshots)
+
+The GUI version of the system is not yet published, but screenshots of its interface are included below:
+
+### GUI Input
+![GUI Input Screenshot](images/GUI_sample_in.png)
+
+### GUI Output
+![GUI Output Screenshot](images/GUI_sample_out.png)
+
+---
+
+By citing the above datasets, this project adheres to open-source data usage guidelines while acknowledging the contributions of the dataset creators.
+
 
 ## Acknowledgments
 
